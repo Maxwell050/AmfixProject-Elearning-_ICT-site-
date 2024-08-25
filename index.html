@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book: Introduction to Computers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Introduction to Computers</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#parts">Basic Parts of a Computer</a></li>
+                <li><a href="#uses">Uses of Computers</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page Content -->
+    <main id="home">
+        <section class="img1">
+            <h2>What is a Computer?</h2>
+            <p>A computer is an electronic device that processes data and performs tasks according to instructions. It
+                is used in various areas of life, including education, business, and entertainment.</p>
+            <img src="image/computer5.jpeg" alt="Computer Image">
+            <h3>Student Learning Using Computer</h3>
+            <img src="image/student.jpeg" alt="Student using computer">
+        </section>
+    </main>
+
+    <!-- Basic Parts of a Computer Content -->
+    <main id="parts">
+        <section>
+            <h2>The Main four Basic Parts of a Computer</h2>
+            <div class="part" onmouseover="show('monitor')" onmouseout="hide('monitor')">
+                <img src="image/computer4.jpeg" alt="Monitor">
+                <p>Monitor</p>
+                <span id="monitor-tip" class="tip">The monitor displays information from the computer.</span>
+            </div>
+            <div class="part" onmouseover="show('system-Unit')" onmouseout="hide('system-Unit')">
+                <img src="image/systemunit2.jpeg" alt="System-Unit">
+                <p>System Unit</p>
+                <span id="system-tip" class="tip">The system-Unit is the computer main<br> component,executing
+                    instruction,
+                    controlling data flow and connecting peripherals.</span>
+            </div>
+            <div class="part" onmouseover="show('keyboard')" onmouseout="hide('keyboard')">
+                <img src="image/keyboard1.jpeg" alt="Keyboard">
+                <p>Keyboard</p>
+                <span id="keyboard-tip" class="tip">The keyboard is used to type information into the
+                    computer.</span>
+            </div>
+
+            <div class="part" onmouseover="show('mouse')" onmouseout="hide('mouse')">
+                <img src="image/mouse.jpeg" alt="Mouse">
+                <p>Mouse</p>
+                <span id="mouse-tip" class="tip">The mouse is used to point and click on objects on the
+                    screen.</span>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Uses of Computers Content -->
+    <main id="uses">
+        <section class="img1">
+            <h2>Uses of Computers in Everyday Life</h2>
+            <ul>
+                <li>Education: Computers help students to learn and access information.</li>
+                <li>Entertainment: Computers are used to watch movies, play games, and listen to music.</li>
+                <li>Communication: Computers allow people to communicate with others through email and social media.
+                </li>
+            </ul>
+            <img src="image/img1.jpeg" alt="Everyday Uses of Computers">
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 E-Book for Teaching ICT, Amfix-Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
